@@ -8,7 +8,7 @@ import org.bukkit.inventory.ItemStack;
 public abstract class Button {
     public abstract ItemStack getItem();
 
-    public abstract void onClick(Player player, int slot, Menu menu, ClickType click);
+    public abstract void onClick(Player player, Menu menu, ClickType click);
 
     public void close(Player player) {
         player.closeInventory();

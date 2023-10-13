@@ -22,7 +22,7 @@ public class MenuHandler implements Listener {
         Player player = ((Player) event.getWhoClicked());
         if (menus.get(player) != null) {
             Button button = menus.get(player).getItems(player).get(event.getSlot());
-            button.onClick(player, event.getSlot(), menus.get(player), event.getClick());
+            button.onClick(player, menus.get(player), event.getClick());
             event.setCancelled(true);
         }
     }

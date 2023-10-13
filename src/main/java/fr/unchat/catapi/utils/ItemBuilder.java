@@ -31,6 +31,13 @@ public class ItemBuilder {
         return this;
     }
 
+    public ItemBuilder setLore(String... lore) {
+        ItemMeta meta = item.getItemMeta();
+        meta.setLore(List.of(lore));
+        item.setItemMeta(meta);
+        return this;
+    }
+
     public ItemBuilder addEnchant(Enchantment enchant, int level) {
         item.addEnchantment(enchant, level);
         return this;
