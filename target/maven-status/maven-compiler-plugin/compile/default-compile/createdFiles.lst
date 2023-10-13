@@ -1,0 +1,9 @@
+fr\unchat\catapi\utils\ItemBuilder.class
+fr\unchat\catapi\utils\msg\ConversationUtil.class
+fr\unchat\catapi\utils\msg\TextUtil.class
+fr\unchat\catapi\utils\Utility.class
+fr\unchat\catapi\commands\CommandInfo.class
+fr\unchat\catapi\plugin\CatPlugin.class
+fr\unchat\catapi\CatAPI.class
+fr\unchat\catapi\commands\CatCommand.class
+fr\unchat\catapi\bossbar\Boss.class
