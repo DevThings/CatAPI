@@ -81,7 +81,7 @@
         <repository>
             <id>unchat</id>
             <name>CAT API</name>
-            <url>https://maven.pkg.github.com/UnNyanCat/CatAPI</url>
+            <url>https://maven.pkg.github.com/DevThings/CatAPI</url>
         </repository>
     </distributionManagement>
 </project>
